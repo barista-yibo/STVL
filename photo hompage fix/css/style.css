@@ -1,0 +1,46 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/* Blog thumbnails should be 275x240. Image pathways: */
+<img src="/Blog-images/placeholder343.jpg" alt="ENTER ALT TEXT HERE">
+<img src="/Product Images/placeholder343.jpg" alt="ENTER ALT TEXT HERE">
+
+/* Blog images centered with width/height */
+<img src="/Blog-images/placeholder343.jpg"
+alt="ENTER ALT TEXT HERE" width="300" height="300"
+style="display: block; float: none; margin: 0px auto 20px;">
+
+/* Blog product images with links */
+<p style="text-align: center"><strong><a href="/ENTER URL HERE">ENTER TEXT HERE</a></strong></p>
+<p><a href="/ENTER URL HERE">
+<img src="/Product Images/placeholder343.jpg"
+alt="ENTER ALT TEXT HERE" width="300" height="300"
+style="display: block; float: none; margin: 0px auto 20px;">
+</a></p><br>
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

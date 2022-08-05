@@ -1,0 +1,4 @@
+@media screen and (max-width: 600px) {
+	.sv-hide-on-mobile {
+	display:hidden;
+}
